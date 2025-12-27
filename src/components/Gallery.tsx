@@ -184,7 +184,7 @@ export default function Gallery() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               { icon: '01', title: 'Upload', desc: 'Upload raw image. Converting to grayscale. Canvas created.' },
-              { icon: '02', title: 'Color', desc: 'Select pixel. Choose color. 6 hour cooldown. Make it count.' },
+              { icon: '02', title: 'Color', desc: 'Select pixel. Choose color. 5 minute cooldown. Make it count.' },
               { icon: '03', title: 'Collaborate', desc: 'Real-time updates. Community effort. Watch art emerge.' }
             ].map((step, i) => (
               <div key={i} className="relative p-8 border-4 border-white hover:bg-white hover:text-black transition-colors duration-300 group">
